@@ -110,8 +110,23 @@ public class ArrayDeque {
         DeQue.insertFirst("kim");
         System.out.println("*** 세번의 삽입 연산 후 덱 출력 ***");
         DeQue.print();
-
-
-
+        DeQue.insertLast(3457);
+        System.out.println("*** InsertLast 연산 후 덱 ***");
+        DeQue.print();
+        DeQue.deleteLast();
+        System.out.println("*** DeleteLast 연산 후 덱 ***");
+        DeQue.print();
+        DeQue.deleteFirst();
+        System.out.println("*** DeleteFirst 연산 후 덱 ***");
+        DeQue.print();
+        DeQue.insertFirst("Cho");
+        System.out.println("*** InsertFirst 연산 후 덱 ***");
+        DeQue.print();
+        DeQue.insertLast("park");
+        System.out.println("*** InsertLast 연산 후 덱 ***");
+        DeQue.print();
+        System.out.println("First : " + DeQue.First());
+        System.out.println("Last : " + DeQue.Last());
+        System.out.println("Last : " + DeQue.Last());
     }
 }
