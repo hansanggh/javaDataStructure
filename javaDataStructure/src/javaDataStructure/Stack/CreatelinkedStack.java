@@ -39,11 +39,12 @@ public class CreatelinkedStack {
         stk.create("park");
         stk.create("yoon");
     }
+
     public static void main(String args[]){
         CreatelinkedStack obj = new CreatelinkedStack();
         Stack stk = new Stack();
         obj.build(stk);
-        System.out.println("*** 스탣 출력");
+        System.out.println("*** 스택 출력");
         stk.print();
     }
 }
